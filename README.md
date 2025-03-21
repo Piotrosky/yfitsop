@@ -42,9 +42,9 @@ Yfitsop to aplikacja webowa typu Spotify-clone, umożliwiająca strumieniowe odt
 
 #  Technologie
 
-🚀 Backend: Python (Django)
-🎨 Frontend: TailwindCSS
-💾 Baza danych: PostgreSQL
+🚀 Backend: Python (Django) <br>
+🎨 Frontend: TailwindCSS <br>
+💾 Baza danych: PostgreSQL <br>
 
 #  Ograniczenia
 
