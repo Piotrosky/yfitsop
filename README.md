@@ -30,7 +30,7 @@ Yfitsop to aplikacja webowa typu Spotify-clone, umożliwiająca strumieniowe odt
 
 #  Użytkownicy
 
-👤 Zarejestrowani użytkownicy – mogą odtwarzać muzykę i zarządzać swoimi playlistami.
+👤 Zarejestrowani użytkownicy – mogą odtwarzać muzykę i zarządzać swoimi playlistami.<br>
 🔑 Administratorzy – mają dostęp do zarządzania treścią (np. dodawanie nowych utworów do systemu).
 
 #  Korzyści
