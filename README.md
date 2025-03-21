@@ -1,4 +1,4 @@
-#        Yfitsop    
+#       Yfitsop    
 
 Temat: Aplikacja do streamingu muzyki
 
@@ -12,11 +12,11 @@ Poziom i semestr: I/4
 
 Yfitsop - Webowy Odtwarzacz Muzyczny
 
-Opis
+#  Opis
 
 Yfitsop to aplikacja webowa typu Spotify-clone, umożliwiająca strumieniowe odtwarzanie muzyki. Projekt został stworzony jako baza do dalszego rozwoju oraz nauki technologii webowych, takich jak Python (Django) i TailwindCSS.
 
-Funkcjonalności
+#  Funkcjonalności
 
 🎵 Przeglądanie dostępnej biblioteki muzycznej
 
@@ -28,25 +28,25 @@ Funkcjonalności
 
 🔧 Administratorzy mogą dodawać nowe utwory do systemu
 
-Użytkownicy
+#  Użytkownicy
 
 👤 Zarejestrowani użytkownicy – mogą odtwarzać muzykę i zarządzać swoimi playlistami.
 🔑 Administratorzy – mają dostęp do zarządzania treścią (np. dodawanie nowych utworów do systemu).
 
-Korzyści
+#  Korzyści
 
 ✅ K-001: Użytkownicy mogą słuchać muzyki online.<br>
 ✅ K-002: Użytkownicy mogą wyszukiwać utwory po nazwie.<br>
 ✅ K-003: Użytkownicy mogą tworzyć i zarządzać playlistami.<br>
 ✅ K-004: Administratorzy mogą dodawać nowe utwory do bazy danych.<br>
 
-Technologie
+#  Technologie
 
 🚀 Backend: Python (Django)
 🎨 Frontend: TailwindCSS
 💾 Baza danych: PostgreSQL
 
-Ograniczenia
+#  Ograniczenia
 
 ⚠️ Przeglądarki: Aplikacja będzie zoptymalizowana pod najnowsze wersje Chrome, Firefox i Edge.<br>
 ⚠️ Brak możliwości uploadu plików: Użytkownicy nie mogą przesyłać własnej muzyki.<br>
