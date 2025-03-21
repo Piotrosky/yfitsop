@@ -35,10 +35,10 @@ Użytkownicy
 
 Korzyści
 
-✅ K-001: Użytkownicy mogą słuchać muzyki online.
-✅ K-002: Użytkownicy mogą wyszukiwać utwory po nazwie.
-✅ K-003: Użytkownicy mogą tworzyć i zarządzać playlistami.
-✅ K-004: Administratorzy mogą dodawać nowe utwory do bazy danych.
+✅ K-001: Użytkownicy mogą słuchać muzyki online.<br>
+✅ K-002: Użytkownicy mogą wyszukiwać utwory po nazwie.<br>
+✅ K-003: Użytkownicy mogą tworzyć i zarządzać playlistami.<br>
+✅ K-004: Administratorzy mogą dodawać nowe utwory do bazy danych.<br>
 
 Technologie
 
@@ -48,7 +48,7 @@ Technologie
 
 Ograniczenia
 
-⚠️ Przeglądarki: Aplikacja będzie zoptymalizowana pod najnowsze wersje Chrome, Firefox i Edge.
-⚠️ Brak możliwości uploadu plików: Użytkownicy nie mogą przesyłać własnej muzyki.
-⚠️ Brak rekomendacji: System nie sugeruje utworów na podstawie historii odtwarzania.
-⚠️ Ochrona danych: Dane użytkowników będą przechowywane zgodnie z polityką RODO.
+⚠️ Przeglądarki: Aplikacja będzie zoptymalizowana pod najnowsze wersje Chrome, Firefox i Edge.<br>
+⚠️ Brak możliwości uploadu plików: Użytkownicy nie mogą przesyłać własnej muzyki.<br>
+⚠️ Brak rekomendacji: System nie sugeruje utworów na podstawie historii odtwarzania.<br>
+⚠️ Ochrona danych: Dane użytkowników będą przechowywane zgodnie z polityką RODO.<br>
