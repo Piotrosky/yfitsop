@@ -21,10 +21,10 @@ Niniejszą informację należy również usunąć z wersji końcowej.
 2. [Odnośniki do innych źródeł](#odnośniki-do-innych-źródeł)  
 3. [Słownik pojęć](#słownik-pojęć)  
 4. [Wprowadzenie](#wprowadzenie)  
-   - [Cel dokumentacji](#cel-dokumentacji)  
-   - [Przeznaczenie dokumentacji](#przeznaczenie-dokumentacji)  
-   - [Opis organizacji lub analiza rynku](#opis-organizacji-lub-analiza-rynku)  
-   - [Analiza SWOT organizacji](#analiza-swot-organizacji)  
+   4.1 [Cel dokumentacji](#cel-dokumentacji)  
+   4.2 [Przeznaczenie dokumentacji](#przeznaczenie-dokumentacji)  
+   4.3 [Opis organizacji lub analiza rynku](#opis-organizacji-lub-analiza-rynku)  
+   4.4 [Analiza SWOT organizacji](#analiza-swot-organizacji)  
 5. [Specyfikacja wymagań](#specyfikacja-wymagań)  
    - [Charakterystyka ogólna](#charakterystyka-ogólna)  
    - [Wymagania funkcjonalne](#wymagania-funkcjonalne)  
@@ -53,14 +53,17 @@ Niniejszą informację należy również usunąć z wersji końcowej.
 12. [Inne informacje](#inne-informacje)  
 
 
-
+# Odnośniki do innych źródeł
 2 Odnośniki do innych źródeł
 tj. do wykorzystywanych narzędzi / projektów w tych narzędziach
         ◦ Zarządzania projektem – Jira, Trello, itp.
         ◦ Wersjonowanie kodu – sugerowany Git (hosting np. na Bitbucket lub Github), ew. SVN
         ◦ System obsługi defektów – np. Bitbucket, Github, Bugzilla.
+# Słownik Pojęć
 3 Słownik pojęć
 Tabela lub lista z pojęciami, które wymagają wyjaśnienia, wraz z tymi wyjaśnieniami – w szczególności synonimy różnych pojęć używanych w dokumentacji.
+
+# Wprowadzenie
 4 Wprowadzenie
 4.1 Cel dokumentacji
 po co ją robimy i co zawiera (poziom szczegółowości)
