@@ -224,8 +224,8 @@ Dokumentacja ma na celu przedstawienie szczegółów dotyczących systemu Yfitso
 
 | *Członek* | *Zakres prac* | *Czas pracy* |
 |-------------|-----------------|----------------|
-| Piotr Piotrowski | Backend (Django) | 100h |
-| Dorian Sobierański | Frontend (TailwindCSS) | 80h |
+| Piotr Piotrowski |  |  |
+| Dorian Sobierański |  |  |
 
 ---
 
