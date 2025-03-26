@@ -63,27 +63,26 @@ tj. do wykorzystywanych narzędzi / projektów w tych narzędziach
 3 Słownik pojęć
 Tabela lub lista z pojęciami, które wymagają wyjaśnienia, wraz z tymi wyjaśnieniami – w szczególności synonimy różnych pojęć używanych w dokumentacji.
 
-# Wprowadzenie
-4 Wprowadzenie
-4.1 Cel dokumentacji
+# 4. Wprowadzenie
+## 4.1 Cel dokumentacji
 po co ją robimy i co zawiera (poziom szczegółowości)
 
-4.2 Przeznaczenie dokumentacji
+## 4.2 Przeznaczenie dokumentacji
 dla kogo ona jest
-4.3 Opis organizacji lub analiza rynku
+## 4.3 Opis organizacji lub analiza rynku
 Jedna z dwóch opcji:
     1. Jeśli dla konkretnej organizacji: Czym jest organizacja, dla której realizowany będzie system; jak działa (lub będzie działała), kiedy system będzie wdrożony – tutaj nie odwołujemy się do samego systemu, tylko opisujemy samo działanie organizacji i role. W szczególności – jak wyglądają główne procesy biznesowe.
     2. Jeśli na masowy rynek: Pobieżna analiza rynku. Dla kogo będzie przydatny taki system. Ile jest organizacji, które będą mogły z niego skorzystać, użytkowników w poszczególnych organizacjach. Czy te organizacje stanowią jednorodną grupę czy są różne rodzaje. Co one mają ze sobą wspólnego. Jak ta liczba będzie się zmieniała w najbliższej przyszłości.
-4.4 Analiza SWOT organizacji
+## 4.4 Analiza SWOT organizacji
     • jeśli system dla konkretnej organizacji:
         ◦ wystarczy sama tabela 2x2 (silne-słabe-szanse-zagrożenia)
     • jeśli system na masowy rynek:
         ◦ szanse i zagrożenia
-5 Specyfikacja wymagań
-5.1 Charakterystyka ogólna
-5.1.1 Definicja produktu
+# 5 Specyfikacja wymagań
+## 5.1 Charakterystyka ogólna
+### 5.1.1 Definicja produktu
 Yfitsop to aplikacja webowa typu Spotify-clone, umożliwiająca strumieniowe odtwarzanie muzyki. Projekt został stworzony jako baza do dalszego rozwoju oraz nauki technologii webowych, takich jak Python (Django) i TailwindCSS. 
-5.1.2 Podstawowe założenia
+### 5.1.2 Podstawowe założenia
 Yfitsop jest aplikacją webową, która pozwala użytkownikom na:
 
 - Przeglądanie dostępnej biblioteki muzycznej
@@ -91,17 +90,17 @@ Yfitsop jest aplikacją webową, która pozwala użytkownikom na:
 - Tworzenie I zarządzanie playlistami
 - Odtwarzanie utworów w interfejsie webowym
 - Aplikacja nie umożliwia przesyłania własnych utworów ani generowania rekomendacji
-5.1.3 Cel biznesowy
+### 5.1.3 Cel biznesowy
 Celem wdrożenia systemu jest stworzenie prostej platformy do streamingu muzyki, która może być używana jako baza do dalszego rozwoju oraz nauki technologii webowych takich jak Python (Django) i TailwindCSS.
-5.1.4 Użytkownicy
+### 5.1.4 Użytkownicy
 Zarejestrowani użytkownicy – mogą odtwarzać muzykę i zarządzać swoimi playlistami.
 Administratorzy – mają dostęp do zarządzania treścią (np. dodawanie nowych utworów do systemu). 
-5.1.5 Korzyści z systemu
+### 5.1.5 Korzyści z systemu
 K-001: Użytkownicy mogą słuchać muzyki online.
 K-002: Użytkownicy mogą wyszukiwać utwory po nazwie.
 K-003: Użytkownicy mogą tworzyć i zarządzać playlistami.
 K-004: Administratorzy mogą dodawać nowe utwory do bazy danych. 
-5.1.6 Ograniczenia projektowe i wdrożeniowe
+### 5.1.6 Ograniczenia projektowe i wdrożeniowe
 Technologie:	
 	Backend: Python (Django)
 	Frontend: TailwindCSS
