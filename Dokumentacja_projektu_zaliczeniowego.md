@@ -49,7 +49,7 @@
 
 ---
 
-## 2 Odnośniki do innych źródeł
+## Odnośniki do innych źródeł
 
 - *Zarządzanie projektem*: Jira, Trello, itp.
 - *Wersjonowanie kodu*: Git (hosting np. na Bitbucket lub Github), ew. SVN
@@ -157,7 +157,7 @@ Brak możliwości uploadu plików i rekomendacji. Dane użytkowników zgodne z p
 
 ---
 
-## 6 Zarządzanie projektem
+##  Zarządzanie projektem
 
 ### 6.1 Zasoby ludzkie
 
