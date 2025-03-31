@@ -30,7 +30,7 @@
     3. [Etapy/kamienie milowe projektu](#etapykamienie-milowe-projektu)
 6. [Zarządzanie ryzykiem](#zarządzanie-ryzykiem)
     1. [Lista czynników ryzyka](#lista-czynników-ryzyka)
-    2. [Ocena ryzyka](#N162)
+    2. [Ocena ryzyka](#L162)
     3. [Plan reakcji na ryzyko](#plan-reakcji-na-ryzyko)
 7. [Zarządzanie jakością](#zarządzanie-jakością)
     1. [Scenariusze i przypadki testowe](#scenariusze-i-przypadki-testowe)
