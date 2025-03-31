@@ -88,7 +88,7 @@ Dokumentacja jest przeznaczona dla zespołu projektowego, przyszłych deweloper�
 
 ---
 
-# 5 Specyfikacja wymagań
+## 5 Specyfikacja wymagań
 
 ### 5.1 Charakterystyka ogólna
 
@@ -139,7 +139,7 @@ Brak możliwości uploadu plików i rekomendacji. Dane użytkowników zgodne z p
 
 #### 5.2.2 Diagramy przypadków użycia
 
-Tutaj same diagramy – bez specyfikacji, ale każdy diagram z tytułem i na osobnej stronie.
+![image](https://github.com/user-attachments/assets/7430ccb3-5fb9-4f6c-a045-7e1c9e604690)
 
 #### 5.2.3 Szczegółowy opis wymagań
 
