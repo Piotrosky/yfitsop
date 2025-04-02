@@ -88,7 +88,7 @@ Dokumentacja jest przeznaczona dla zespołu projektowego, przyszłych deweloper�
 
 ---
 
-## 5 Specyfikacja wymagań
+## 5 Specyfikacja wymagań {#specyfikacja-wymagań}
 
 ### 5.1 Charakterystyka ogólna
 
