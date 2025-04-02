@@ -15,7 +15,7 @@
 
 1. [Odnośniki do innych źródeł](#odnośniki-do-innych-źródeł)
 2. [Słownik pojęć](#słownik-pojęć)
-3. [Wprowadzenie](#wprowadzenie)
+3. [Wprowadzenie](#4-wprowadzenie)
     1. [Cel dokumentacji](#cel-dokumentacji)
     2. [Przeznaczenie dokumentacji](#przeznaczenie-dokumentacji)
     3. [Opis organizacji lub analiza rynku](#opis-organizacji-lub-analiza-rynku)
@@ -88,7 +88,7 @@ Dokumentacja jest przeznaczona dla zespołu projektowego, przyszłych deweloper�
 
 ---
 
-## 5 Specyfikacja wymagań {#specyfikacja-wymagań}
+## 5 Specyfikacja wymagań
 
 ### 5.1 Charakterystyka ogólna
 
