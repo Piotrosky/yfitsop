@@ -239,10 +239,10 @@ System komunikuje się przez REST API z użyciem JSON.
 
 
 #### 9.3.2 Diagram(-y) czynności
-Tworzenie playlisty
+##### Tworzenie playlisty
 ![image](https://github.com/user-attachments/assets/13b6721f-fcff-486f-ab66-e492fd1fd222)
 <br>
-Odtwarzanie utworu
+##### Odtwarzanie utworu
 ![image](https://github.com/user-attachments/assets/bbc3c397-0cc6-4230-9fbb-b86a43b07394)
 
 
