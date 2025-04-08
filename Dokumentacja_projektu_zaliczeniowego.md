@@ -210,7 +210,105 @@ Plan reakcji w przypadku wystąpienia opóźnień w harmonogramie – dodatkowe 
 
 ### 9.1 Opis architektury systemu
 
-Diagram przedstawiający architekturę systemu: warstwa frontend, backend, baza danych.
+System Yfitsop oparty jest na architekturze trójwarstwowej:
+
+Warstwa prezentacji (frontend) – odpowiedzialna za interakcję z użytkownikiem, zbudowana z użyciem HTML/CSS (Tailwind) i JavaScript.
+
+Warstwa logiki aplikacji (backend) – zaimplementowana w Pythonie przy użyciu frameworka Django. Obsługuje logikę biznesową, uwierzytelnianie, kontrolery playlist, utworów, użytkowników.
+
+Warstwa danych – relacyjna baza danych PostgreSQL, przechowująca dane o użytkownikach, utworach i playlistach.
+
+System komunikuje się przez REST API z użyciem JSON.
+
+### 9.2 Technologie implementacji systemu
+| Technologia   | Zastosowanie                          | Uzasadnienie                                                  |
+|---------------|----------------------------------------|---------------------------------------------------------------|
+| Python        | Backend (Django)                       | Popularny, elastyczny, szybki w prototypowaniu               |
+| Django        | Framework webowy                       | Ułatwia szybkie tworzenie backendu aplikacji                 |
+| PostgreSQL    | System zarządzania bazą danych         | Stabilny i skalowalny silnik relacyjny                       |
+| Tailwind CSS  | Stylowanie interfejsu użytkownika      | Szybkie prototypowanie i nowoczesny wygląd                   |
+| HTML5/CSS3    | Struktura i stylowanie strony          | Standardowe technologie webowe                               |
+| JavaScript    | Interaktywność frontendu               | Obsługa dynamicznych akcji na stronie                        |
+| GitHub        | Kontrola wersji i współpraca zespołowa | Ułatwia śledzenie zmian i współpracę                         |
+
+### 9.3 Diagramy UML
+
+#### 9.3.1 Diagram(-y) klas
+
+![image](https://github.com/user-attachments/assets/56c98618-0304-4a2e-af00-352471787f64)
+
+
+#### 9.3.2 Diagram(-y) czynności
+Tworzenie playlisty
+![image](https://github.com/user-attachments/assets/13b6721f-fcff-486f-ab66-e492fd1fd222)
+<br>
+Odtwarzanie utworu
+![image](https://github.com/user-attachments/assets/bbc3c397-0cc6-4230-9fbb-b86a43b07394)
+
+
+#### 9.3.3 Diagramy sekwencji
+
+![image](https://github.com/user-attachments/assets/68622b03-cfcc-428a-91bc-346f595f13d5)
+
+### 9.4 Charakterystyka zastosowanych wzorców projektowych
+W systemie Yfitsop zastosowano dwa klasyczne wzorce projektowe:
+
+MVC (Model-View-Controller) – realizowany przez framework Django:
+
+Model – definicje obiektów (Track, Playlist, User),
+
+View – logika przetwarzania żądań HTTP i renderowanie stron,
+
+Controller – pośrednio realizowany przez View/URL routing.
+
+Singleton – dla klasy zarządzającej konfiguracją systemu (np. dostęp do API lub odtwarzacza).
+
+Wzorce te umożliwiają lepszą separację odpowiedzialności oraz łatwiejsze testowanie komponentów.
+
+### 9.5 Projekt Bazy danych
+
+Główne tabele:
+
+#### Tabela: users
+
+| Kolumna     | Typ danych   | NULL     | Klucz       | Opis                          |
+|-------------|--------------|----------|-------------|-------------------------------|
+| id          | INTEGER      | NOT NULL | PRIMARY KEY | Unikalny identyfikator użytkownika |
+| username    | VARCHAR      | NOT NULL | UNIQUE      | Nazwa użytkownika             |
+| email       | VARCHAR      | NOT NULL | UNIQUE      | Adres e-mail użytkownika      |
+| password    | VARCHAR      | NOT NULL |             | Zaszyfrowane hasło            |
+| date_joined | TIMESTAMP    | NOT NULL |             | Data rejestracji              |
+
+---
+
+#### Tabela: tracks
+
+| Kolumna  | Typ danych   | NULL     | Klucz       | Opis                       |
+|----------|--------------|----------|-------------|----------------------------|
+| id       | INTEGER      | NOT NULL | PRIMARY KEY | Unikalny identyfikator utworu |
+| title    | VARCHAR      | NOT NULL |             | Tytuł utworu               |
+| artist   | VARCHAR      | NOT NULL |             | Wykonawca                  |
+| album    | VARCHAR      | YES      |             | Album                      |
+| duration | INTEGER      | NOT NULL |             | Czas trwania w sekundach   |
+
+---
+
+#### Tabela: playlists
+
+| Kolumna | Typ danych | NULL     | Klucz       | Opis                            |
+|---------|------------|----------|-------------|---------------------------------|
+| id      | INTEGER    | NOT NULL | PRIMARY KEY | Unikalny identyfikator playlisty |
+| name    | VARCHAR    | NOT NULL |             | Nazwa playlisty                 |
+| user_id | INTEGER    | NOT NULL | FOREIGN KEY | Odniesienie do `users(id)`      |
+
+---
+
+#### Tabela: playlist_tracks
+
+| Kolumna      | Typ danych | NULL     | Klucz       | Opis                             |
+|--------------|------------|----------|-------------|----------------------------------|
+| playlist_id  | INTEGER    | NOT NULL | FOREIGN KEY | Odniesienie do `playlists(id)`  |
+| track_id     | INTEGER    | NOT NULL | FOREIGN KEY | Odniesienie do `tracks(id)`     |
 
 ---
 
