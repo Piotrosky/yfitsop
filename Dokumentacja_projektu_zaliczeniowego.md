@@ -57,69 +57,87 @@
 
 ---
 
-## 3 Słownik pojęć
+## 2 Słownik pojęć
 
 Tabela lub lista z pojęciami, które wymagają wyjaśnienia, wraz z tymi wyjaśnieniami – w szczególności synonimy różnych pojęć używanych w dokumentacji.
 
 ---
 
-## 4 Wprowadzenie
+## 3 Wprowadzenie
 
-### 4.1 Cel dokumentacji
+### 3.1 Cel dokumentacji
 
 Celem dokumentacji jest przedstawienie szczegółowych informacji dotyczących systemu Yfitsop, w tym jego specyfikacji, wymagań funkcjonalnych i niefunkcjonalnych, technologii implementacji oraz zarządzania projektem.
 
-### 4.2 Przeznaczenie dokumentacji
+### 3.2 Przeznaczenie dokumentacji
 
 Dokumentacja jest przeznaczona dla zespołu projektowego, przyszłych deweloperów oraz użytkowników systemu.
 
-### 4.3 Opis organizacji lub analiza rynku
+### 3.3 Opis organizacji lub analiza rynku
 
-- *Jeśli dla konkretnej organizacji*: Opis organizacji, dla której realizowany będzie system, jej procesów biznesowych.
-- *Jeśli na masowy rynek*: Pobieżna analiza rynku, docelowi użytkownicy, organizacje, ich rodzaje.
+Klon Spotify w Django ma na celu dostarczenie prostego, samodzielnie hostowanego rozwiązania do odtwarzania muzyki, skierowanego do:
 
-### 4.4 Analiza SWOT organizacji
+Małych firm (np. lokalne kawiarnie, sklepy) – jako wewnętrzny system muzyczny.
+Entuzjastów technologii – którzy chcą zrozumieć działanie platform streamingowych.
+Niszowych twórców muzyki – jako alternatywa dla komercyjnych platform.
+Potencjalni użytkownicy:
+
+Liczba organizacji: Tysiące małych firm (np. gastronomia, fitness) mogą potrzebować własnego systemu audio.
+
+Użytkownicy indywidualni: Programiści uczący się Django, hobbyści.
+Jednorodność grupy: Różnorodne potrzeby – od edukacyjnych po komercyjne.
+Trendy rynkowe:
+
+Wzrost zapotrzebowania na lokalne rozwiązania chmurowce (np. self-hosted alternatywy dla Spotify).
+Rosnąca popularność frameworków Pythonowych (Django, FastAPI).
+
+### 3.4 Analiza SWOT organizacji
 
 | *Silne strony* | *Słabe strony* |
 |------------------|------------------|
-| Przykład 1       | Przykład 2       |
+| Niski koszt wdrożenia (open-source)       | Brak skalowalności jak Spotify (np. brak CDN).      |
+|Możliwość modyfikacji kodu | Ograniczona funkcjonalność (brak rekomendacji AI) |
+| Integracja z istniejącymi bibliotekami audio | Wymaga wiedzy technicznej do hostowania |
+
 | *Szanse*       | *Zagrożenia*   |
-| Przykład 3       | Przykład 4       |
+|----------------|----------------|
+| Rosnący rynek self-hosted tools       | Konkurencja z API (np. Spotify Web API)|
+|Możliwość rozszerzenia o płatne funkcje (np. subskrypcje) | Prawo autorskie (problemy z udostępnianiem muzyki) |
 
 ---
 
-## 5 Specyfikacja wymagań
+## 4 Specyfikacja wymagań
 
-### 5.1 Charakterystyka ogólna
+### 4.1 Charakterystyka ogólna
 
-#### 5.1.1 Definicja produktu
+#### 4.1.1 Definicja produktu
 
 Yfitsop to aplikacja webowa typu Spotify-clone, umożliwiająca strumieniowe odtwarzanie muzyki. Projekt wykorzystuje technologie Python (Django) i TailwindCSS.
 
-#### 5.1.2 Podstawowe założenia
+#### 4.1.2 Podstawowe założenia
 
 - Przeglądanie dostępnej biblioteki muzycznej
 - Wyszukiwanie utworów według nazwy
 - Tworzenie i zarządzanie playlistami
 - Odtwarzanie utworów w interfejsie webowym
 
-#### 5.1.3 Cel biznesowy
+#### 4.1.3 Cel biznesowy
 
 Celem jest stworzenie platformy do streamingu muzyki jako baza do dalszego rozwoju oraz nauki technologii webowych.
 
-#### 5.1.4 Użytkownicy
+#### 4.1.4 Użytkownicy
 
 - *Zarejestrowani użytkownicy*: Mogą odtwarzać muzykę i zarządzać playlistami.
 - *Administratorzy*: Mają dostęp do zarządzania treścią.
 
-#### 5.1.5 Korzyści z systemu
+#### 4.1.5 Korzyści z systemu
 
 - K-001: Użytkownicy mogą słuchać muzyki online.
 - K-002: Użytkownicy mogą wyszukiwać utwory po nazwie.
 - K-003: Użytkownicy mogą tworzyć i zarządzać playlistami.
 - K-004: Administratorzy mogą dodawać nowe utwory do bazy danych.
 
-#### 5.1.6 Ograniczenia projektowe i wdrożeniowe
+#### 4.1.6 Ograniczenia projektowe i wdrożeniowe
 
 - *Backend*: Python (Django)
 - *Frontend*: TailwindCSS
@@ -128,20 +146,20 @@ Celem jest stworzenie platformy do streamingu muzyki jako baza do dalszego rozwo
 
 Brak możliwości uploadu plików i rekomendacji. Dane użytkowników zgodne z polityką RODO.
 
-### 5.2 Wymagania funkcjonalne
+### 4.2 Wymagania funkcjonalne
 
-#### 5.2.1 Lista wymagań
+#### 4.2.1 Lista wymagań
 
 - *Odtwarzanie muzyki*: Użytkownik może odtwarzać muzykę za pomocą odtwarzacza.
 - *Tworzenie playlisty*: Użytkownik może tworzyć i zarządzać playlistami.
 - *Wyszukiwanie utworów*: Użytkownik może wyszukiwać utwory po nazwie, artyście, albumie.
 - *Zarządzanie kontem*: Rejestracja, logowanie, zmiana danych użytkownika.
 
-#### 5.2.2 Diagramy przypadków użycia
+#### 4.2.2 Diagramy przypadków użycia
 
 ![image](https://github.com/user-attachments/assets/7430ccb3-5fb9-4f6c-a045-7e1c9e604690)
 
-#### 5.2.3 Szczegółowy opis wymagań
+#### 4.2.3 Szczegółowy opis wymagań
 
 *Numer (ID)*: F-001  
 *Nazwa*: Odtwarzanie muzyki  
@@ -155,19 +173,25 @@ Brak możliwości uploadu plików i rekomendacji. Dane użytkowników zgodne z p
 *Użytkownicy*: Zarejestrowani użytkownicy.  
 *Scenariusz*: Tworzenie nowej playlisty.
 
+*Numer (ID)*: F-003  
+*Nazwa*: Rejestracja na platformie
+*Uzasadnienie biznesowe*: K-003:  
+*Użytkownicy*: Rejestrujący się użytkownicy 
+*Scenariusz*: Tworzenie nowego konta 
+
 ---
 
-## 6 Zarządzanie projektem
+## 5 Zarządzanie projektem
 
-### 6.1 Zasoby ludzkie
+### 5.1 Zasoby ludzkie
 
 Założenie, że projekt byłby realizowany w całości jako projekt komercyjny.
 
-### 6.2 Harmonogram prac
+### 5.2 Harmonogram prac
 
 Wskazać czasy trwania poszczególnych etapów i zadań – wykres Gantta.
 
-### 6.3 Etapy/kamienie milowe projektu
+### 5.3 Etapy/kamienie milowe projektu
 
 1. Faza wstępna: Określenie wymagań, wybór technologii
 2. Faza projektowania: Stworzenie schematów UML, projektowanie interfejsu
@@ -177,38 +201,38 @@ Wskazać czasy trwania poszczególnych etapów i zadań – wykres Gantta.
 
 ---
 
-## 7 Zarządzanie ryzykiem
+## 6 Zarządzanie ryzykiem
 
-### 7.1 Lista czynników ryzyka
+### 6.1 Lista czynników ryzyka
 
 1. Niska jakość kodu, brak testów.
 2. Ograniczona wiedza z zakresu wybranej technologii.
 3. Możliwość opóźnienia w harmonogramie.
 
-### 7.2 Ocena ryzyka
+### 6.2 Ocena ryzyka
 
 | *Czynnik* | *Prawdopodobieństwo* | *Skala wpływu* | *Ocena ryzyka* |
 |-------------|-----------------------|------------------|------------------|
 | Wysokie ryzyko | 3 | 3 | 9 |
 
-### 7.3 Plan reakcji na ryzyko
+### 6.3 Plan reakcji na ryzyko
 
 Plan reakcji w przypadku wystąpienia opóźnień w harmonogramie – dodatkowe godziny pracy, pomoc z zewnątrz.
 
 ---
 
-## 8 Zarządzanie jakością
+## 7 Zarządzanie jakością
 
-### 8.1 Scenariusze i przypadki testowe
+### 7.1 Scenariusze i przypadki testowe
 
 - *Testowanie funkcji wyszukiwania*: Sprawdzenie poprawności wyników wyszukiwania utworów.
 - *Testowanie odtwarzania muzyki*: Sprawdzenie, czy utwór jest odtwarzany poprawnie.
   
 ---
 
-## 9 Projekt techniczny
+## 8 Projekt techniczny
 
-### 9.1 Opis architektury systemu
+### 8.1 Opis architektury systemu
 
 System Yfitsop oparty jest na architekturze trójwarstwowej:
 
@@ -220,7 +244,7 @@ Warstwa danych – relacyjna baza danych PostgreSQL, przechowująca dane o użyt
 
 System komunikuje się przez REST API z użyciem JSON.
 
-### 9.2 Technologie implementacji systemu
+### 8.2 Technologie implementacji systemu
 | Technologia   | Zastosowanie                          | Uzasadnienie                                                  |
 |---------------|----------------------------------------|---------------------------------------------------------------|
 | Python        | Backend (Django)                       | Popularny, elastyczny, szybki w prototypowaniu               |
@@ -231,14 +255,14 @@ System komunikuje się przez REST API z użyciem JSON.
 | JavaScript    | Interaktywność frontendu               | Obsługa dynamicznych akcji na stronie                        |
 | GitHub        | Kontrola wersji i współpraca zespołowa | Ułatwia śledzenie zmian i współpracę                         |
 
-### 9.3 Diagramy UML
+### 8.3 Diagramy UML
 
-#### 9.3.1 Diagram(-y) klas
+#### 8.3.1 Diagram(-y) klas
 
 ![image](https://github.com/user-attachments/assets/56c98618-0304-4a2e-af00-352471787f64)
 
 
-#### 9.3.2 Diagram(-y) czynności
+#### 8.3.2 Diagram(-y) czynności
 ##### Tworzenie playlisty
 ![image](https://github.com/user-attachments/assets/13b6721f-fcff-486f-ab66-e492fd1fd222)
 <br>
@@ -246,11 +270,11 @@ System komunikuje się przez REST API z użyciem JSON.
 ![image](https://github.com/user-attachments/assets/bbc3c397-0cc6-4230-9fbb-b86a43b07394)
 
 
-#### 9.3.3 Diagramy sekwencji
+#### 8.3.3 Diagramy sekwencji
 
 ![image](https://github.com/user-attachments/assets/68622b03-cfcc-428a-91bc-346f595f13d5)
 
-### 9.4 Charakterystyka zastosowanych wzorców projektowych
+### 8.4 Charakterystyka zastosowanych wzorców projektowych
 W systemie Yfitsop zastosowano dwa klasyczne wzorce projektowe:
 
 MVC (Model-View-Controller) – realizowany przez framework Django:
@@ -265,7 +289,7 @@ Singleton – dla klasy zarządzającej konfiguracją systemu (np. dostęp do AP
 
 Wzorce te umożliwiają lepszą separację odpowiedzialności oraz łatwiejsze testowanie komponentów.
 
-### 9.5 Projekt Bazy danych
+### 8.5 Projekt Bazy danych
 
 Główne tabele:
 
@@ -322,8 +346,8 @@ Dokumentacja ma na celu przedstawienie szczegółów dotyczących systemu Yfitso
 
 | *Członek* | *Zakres prac* | *Czas pracy* |
 |-------------|-----------------|----------------|
-| Piotr Piotrowski |  |  |
-| Dorian Sobierański |  |  |
+| Piotr Piotrowski | 50% | 10h |
+| Dorian Sobierański | 50% | 10h |
 
 ---
 
