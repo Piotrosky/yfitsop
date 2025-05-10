@@ -401,8 +401,8 @@ Dokumentacja zawiera wszystkie niezbędne elementy pozwalające na kontynuację 
 
 | *Członek* | *Zakres prac* | *Czas pracy* |
 |-------------|-----------------|----------------|
-| Piotr Piotrowski | 50% | 20h |
-| Dorian Sobierański | 50% | 20h |
+| Piotr Piotrowski | 50% | 15h |
+| Dorian Sobierański | 50% | 15h |
 
 ---
 
