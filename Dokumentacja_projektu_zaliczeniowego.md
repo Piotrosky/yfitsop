@@ -140,8 +140,8 @@ Celem jest stworzenie platformy do streamingu muzyki jako baza do dalszego rozwo
 #### 4.1.6 Ograniczenia projektowe i wdrożeniowe
 
 - *Backend*: Python (Django)
-- *Frontend*: TailwindCSS
-- *Baza danych*: PostgreSQL
+- *Frontend*: CSS, HTML, JavaScript
+- *Baza danych*: SQLite
 - *Przeglądarki*: Chrome, Firefox, Edge
 
 Brak możliwości uploadu plików i rekomendacji. Dane użytkowników zgodne z polityką RODO.
@@ -213,7 +213,7 @@ Wskazać czasy trwania poszczególnych etapów i zadań – wykres Gantta.
 
 | *Czynnik* | *Prawdopodobieństwo* | *Skala wpływu* | *Ocena ryzyka* |
 |-------------|-----------------------|------------------|------------------|
-| Wysokie ryzyko | 3 | 3 | 9 |
+| Brak czasu | 7 | 10 | 11 |
 
 ### 6.3 Plan reakcji na ryzyko
 
@@ -225,8 +225,27 @@ Plan reakcji w przypadku wystąpienia opóźnień w harmonogramie – dodatkowe 
 
 ### 7.1 Scenariusze i przypadki testowe
 
-- *Testowanie funkcji wyszukiwania*: Sprawdzenie poprawności wyników wyszukiwania utworów.
-- *Testowanie odtwarzania muzyki*: Sprawdzenie, czy utwór jest odtwarzany poprawnie.
+## Scenariusz testowy #1: Odtwrzanie utworu
+
+### Informacje podstawowe
+| Pole | Wartość |
+|------|---------|
+| **ID** | TC-001 |
+| **Nazwa** | Odtwarzanie wybranego utworu |
+| **Kategoria** | Test funkcjonalny (UI + Backend) |
+| **Opis** | Weryfikacja poprawnego odtwarzania pliku audio |
+| **Tester** | Marek Towarek |
+
+## Scenariusz testowy #2: Tworzenie playlisty
+
+### Informacje podstawowe
+| Pole | Wartość |
+|------|---------|
+| **ID** | TC-002 |
+| **Nazwa** | Dodawanie nowej playlisty |
+| **Kategoria** | Test funkcjonalny (Formularze + DB) |
+| **Opis** | Weryfikacja zapisu playlisty do bazy |
+| **Tester** | Kamil Adrian Tumulec |
   
 ---
 
@@ -249,8 +268,8 @@ System komunikuje się przez REST API z użyciem JSON.
 |---------------|----------------------------------------|---------------------------------------------------------------|
 | Python        | Backend (Django)                       | Popularny, elastyczny, szybki w prototypowaniu               |
 | Django        | Framework webowy                       | Ułatwia szybkie tworzenie backendu aplikacji                 |
-| PostgreSQL    | System zarządzania bazą danych         | Stabilny i skalowalny silnik relacyjny                       |
-| Tailwind CSS  | Stylowanie interfejsu użytkownika      | Szybkie prototypowanie i nowoczesny wygląd                   |
+| SQLite    | System zarządzania bazą danych         | Stabilny i skalowalny silnik relacyjny                       |
+| CSS  | Stylowanie interfejsu użytkownika      | Szybkie prototypowanie i nowoczesny wygląd                   |
 | HTML5/CSS3    | Struktura i stylowanie strony          | Standardowe technologie webowe                               |
 | JavaScript    | Interaktywność frontendu               | Obsługa dynamicznych akcji na stronie                        |
 | GitHub        | Kontrola wersji i współpraca zespołowa | Ułatwia śledzenie zmian i współpracę                         |
@@ -338,7 +357,43 @@ Główne tabele:
 
 ## 10 Podsumowanie
 
-Dokumentacja ma na celu przedstawienie szczegółów dotyczących systemu Yfitsop. Dzięki tej dokumentacji, zespół projektowy będzie w stanie wykonać aplikację zgodnie z wymaganiami i terminami.
+## Kluczowe osiągnięcia projektu
+- Stworzenie funkcjonalnego prototypu aplikacji streamingowej z wykorzystaniem:
+  - Django (backend)
+  - TailwindCSS (frontend)
+- Kompletna architektura systemu oparta o wzorzec MVC
+- Podstawowe funkcjonalności:
+  - Odtwarzanie muzyki
+  - Tworzenie playlist
+  - Wyszukiwanie utworów
+- Szczegółowa dokumentacja:
+  - Techniczna
+  - Testowa
+
+## Napotkane wyzwania
+| Wyzwanie | Sposób rozwiązania |
+|----------|-------------------|
+| Ograniczenia czasowe | Priorytetyzacja funkcji |
+| Ograniczone możliwości techniczne | Wybór sprawdzonych technologii |
+| Zapewnienie jakości kodu | Implementacja testów |
+
+## Perspektywy rozwoju
+1. **Rozszerzenie funkcjonalności**:
+   - System rekomendacji utworów
+   - Udostępnianie playlist
+2. **Rozwój techniczny**:
+   - Wsparcie dodatkowych formatów audio
+   - Poprawa skalowalności systemu
+3. **Wdrożeniowe**:
+   - Optymalizacja pod kątem większej liczby użytkowników
+
+## Podsumowanie końcowe
+Projekt Yfitsop stanowi udaną implementację podstawowych mechanizmów platformy streamingowej i może służyć jako:
+- Baza do dalszego rozwoju
+- Materiał edukacyjny
+- Punkt wyjścia dla komercyjnych rozwiązań
+
+Dokumentacja zawiera wszystkie niezbędne elementy pozwalające na kontynuację prac nad systemem.
 
 ---
 
