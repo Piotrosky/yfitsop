@@ -13,7 +13,7 @@
 
 ## Spis Treści
 
-1. [Odnośniki do innych źródeł](#odnośniki-do-innych-źródeł)
+1. [Odnośniki do innych źródeł](#1-odnośniki-do-innych-źródeł)
 2. [Słownik pojęć](#słownik-pojęć)
 3. [Wprowadzenie](#4-wprowadzenie)
     1. [Cel dokumentacji](#cel-dokumentacji)
