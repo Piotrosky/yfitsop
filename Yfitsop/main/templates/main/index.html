@@ -1,0 +1,53 @@
+
+{% extends 'main/base.html' %}
+
+{% block heading %}
+    <title>YFitSop - Spotify clone prototype</title>
+    <style>
+        .hidden-player {
+            position: absolute;
+            left: 9999999px;
+        }
+        .play-button {
+            padding: 10px 20px;
+            background-color: green;
+            color: white;
+            border: none;
+            margin-bottom: 10px;
+        }
+        .song-list {
+            margin-top: 20px;
+            display: grid;
+            place-items: center;
+        }
+    </style>
+{% endblock %}
+
+{% block body %}
+    <div class="song-list">
+        {% for song in songs %}
+            <h3>{{ song.title }}</h3>
+            <a href="?play={{ song.id }}">
+                <button class="play-button">Play</button>
+            </a>
+            <form method="post">
+                {% csrf_token %}
+                <input type="hidden" name="song_id" value="{{ song.id }}">
+                <select name="playlist_id" required>
+                    <option value="" selected disabled>Select Playlist</option>
+                    {% for playlist in playlists %}
+                        <option value="{{ playlist.id }}">{{ playlist.name }}</option>
+                    {% endfor %}
+                </select>
+                <button type="submit">Add To Playlist</button>
+            </form>
+            <br>
+            <img style="width: 300px;" src="{{ song.cover_image.url }}" alt="">
+        {% endfor %}
+    </div>
+
+    {% if play_song %}
+        <iframe class="hidden-player" src="{{ play_song.youtube_url_modify }}" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    {% endif %}
+
+{% endblock %}
