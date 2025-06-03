@@ -49,17 +49,34 @@
 
 ---
 
-## 2 Odnośniki do innych źródeł
+## 2. Odnośniki do innych źródeł
 
-- *Zarządzanie projektem*: Jira, Trello, itp.
-- *Wersjonowanie kodu*: Git (hosting np. na Bitbucket lub Github), ew. SVN
-- *System obsługi defektów*: np. Bitbucket, Github, Bugzilla.
+- **Zarządzanie projektem**:  
+  Projekt był zarządzany przy użyciu narzędzi takich jak [Jira](https://www.atlassian.com/software/jira) oraz [Trello](https://trello.com/), które umożliwiały planowanie zadań, podział pracy oraz monitorowanie postępu.
+
+- **Wersjonowanie kodu**:  
+  Wersjonowanie kodu odbywało się z wykorzystaniem systemu kontroli wersji Git. Hosting projektu znajdował się na platformie [GitHub](https://github.com/) oraz opcjonalnie [Bitbucket](https://bitbucket.org/).
+
+- **System obsługi defektów**:  
+  Do raportowania i śledzenia błędów używano systemów takich jak GitHub Issues oraz [Bugzilla](https://www.bugzilla.org/) – zapewniało to przejrzystość oraz możliwość przypisywania zgłoszeń do odpowiednich członków zespołu.
 
 ---
 
-## 3 Słownik pojęć
+## 3. Słownik pojęć
 
-Tabela lub lista z pojęciami, które wymagają wyjaśnienia, wraz z tymi wyjaśnieniami – w szczególności synonimy różnych pojęć używanych w dokumentacji.
+| Pojęcie                | Wyjaśnienie |
+|------------------------|-------------|
+| **Utwór**              | Plik audio przechowywany w bazie danych systemu, możliwy do odtworzenia przez użytkownika. |
+| **Playlista**          | Lista utworów utworzona przez użytkownika, zapisana w bazie danych; może zawierać dowolną liczbę utworów. |
+| **Frontend**           | Część aplikacji widoczna dla użytkownika – interfejs graficzny (UI), stworzony np. w HTML/CSS/JS lub z użyciem frameworka. |
+| **Backend**            | Logika aplikacji i warstwa komunikacji z bazą danych, przetwarzanie żądań, uwierzytelnianie itd. |
+| **Baza danych (DB)**   | Miejsce przechowywania wszystkich danych użytkownika i aplikacji (np. utworów, playlist, kont użytkowników). |
+| **Hashowanie**         | Proces przekształcania danych (np. hasła) do postaci nieodwracalnej, zabezpieczającej je przed kradzieżą. |
+| **CAPTCHA**            | Mechanizm zabezpieczający logowanie przed automatycznymi botami. |
+| **SQL Injection**      | Atak polegający na wstrzyknięciu złośliwego zapytania SQL – należy się przed nim zabezpieczać. |
+| **Sesja użytkownika**  | Okres aktywności użytkownika w aplikacji – kontrolowany poprzez tokeny lub pliki cookie. |
+| **Test jednostkowy**   | Automatyczny test sprawdzający poprawność działania pojedynczej funkcji lub metody. |
+| **Użyteczność (usability)** | Łatwość korzystania z aplikacji przez końcowego użytkownika. Mierzona często czasem potrzebnym do wykonania konkretnej czynności. |
 
 ---
 
