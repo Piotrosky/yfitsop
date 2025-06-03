@@ -11,45 +11,45 @@
 
 ---
 
-## Spis Treści
+## 1 Spis Treści
 
-1. [Odnośniki do innych źródeł](#1-odnośniki-do-innych-źródeł)
-2. [Słownik pojęć](#2-słownik-pojęć)
-3. [Wprowadzenie](#3-wprowadzenie)
-    1. [Cel dokumentacji](#3.1-cel-dokumentacji)
-    2. [Przeznaczenie dokumentacji](#3.2-przeznaczenie-dokumentacji)
-    3. [Opis organizacji lub analiza rynku](#3.3-opis-organizacji-lub-analiza-rynku)
-    4. [Analiza SWOT organizacji](#3.4-analiza-swot-organizacji)
-4. [Specyfikacja wymagań](#4-specyfikacja-wymagań)
-    1. [Charakterystyka ogólna](#4.1-charakterystyka-ogólna)
-    2. [Wymagania funkcjonalne](#4.2-wymagania-funkcjonalne)
-    3. [Wymagania niefunkcjonalne](#4.3-wymagania-niefunkcjonalne)
-5. [Zarządzanie projektem](#5-zarządzanie-projektem)
-    1. [Zasoby ludzkie](#5.1-zasoby-ludzkie)
-    2. [Harmonogram prac](#5.2-harmonogram-prac)
-    3. [Etapy/kamienie milowe projektu](#5.3-etapykamienie-milowe-projektu)
-6. [Zarządzanie ryzykiem](#6-zarządzanie-ryzykiem)
-    1. [Lista czynników ryzyka](#6.1-lista-czynników-ryzyka)
-    2. [Ocena ryzyka](#6.2-ocena-ryzyka)
-    3. [Plan reakcji na ryzyko](#6.3-plan-reakcji-na-ryzyko)
-7. [Zarządzanie jakością](#7-zarządzanie-jakością)
-    1. [Scenariusze i przypadki testowe](#7.1-scenariusze-i-przypadki-testowe)
-8. [Projekt techniczny](#8-projekt-techniczny)
-    1. [Opis architektury systemu](#8.1-opis-architektury-systemu)
-    2. [Technologie implementacji systemu](#8.2-technologie-implementacji-systemu)
-    3. [Diagramy UML](#8.3-diagramy-uml)
-    4. [Charakterystyka zastosowanych wzorców projektowych](#8.4-charakterystyka-zastosowanych-wzorców-projektowych)
-    5. [Projekt bazy danych](#8.5-projekt-bazy-danych)
-    6. [Projekt interfejsu użytkownika](#8.6-projekt-interfejsu-użytkownika)
-    7. [Procedura wdrożenia](#8.7-procedura-wdrożenia)
-9. [Dokumentacja dla użytkownika](#9-dokumentacja-dla-użytkownika)
-10. [Podsumowanie](#10-podsumowanie)
-11. [Szczegółowe nakłady projektowe członków zespołu](#11-szczegółowe-nakłady-projektowe-członków-zespołu)
+2. [Odnośniki do innych źródeł](#2-odnośniki-do-innych-źródeł)
+3. [Słownik pojęć](#3-słownik-pojęć)
+4. [Wprowadzenie](#4-wprowadzenie)
+    1. [Cel dokumentacji](#4.1-cel-dokumentacji)
+    2. [Przeznaczenie dokumentacji](#4.2-przeznaczenie-dokumentacji)
+    3. [Opis organizacji lub analiza rynku](#4.3-opis-organizacji-lub-analiza-rynku)
+    4. [Analiza SWOT organizacji](#4.4-analiza-swot-organizacji)
+5. [Specyfikacja wymagań](#5-specyfikacja-wymagań)
+    1. [Charakterystyka ogólna](#5.1-charakterystyka-ogólna)
+    2. [Wymagania funkcjonalne](#5.2-wymagania-funkcjonalne)
+    3. [Wymagania niefunkcjonalne](#5.3-wymagania-niefunkcjonalne)
+6. [Zarządzanie projektem](#6-zarządzanie-projektem)
+    1. [Zasoby ludzkie](#6.1-zasoby-ludzkie)
+    2. [Harmonogram prac](#6.2-harmonogram-prac)
+    3. [Etapy/kamienie milowe projektu](#6.3-etapykamienie-milowe-projektu)
+7. [Zarządzanie ryzykiem](#7-zarządzanie-ryzykiem)
+    1. [Lista czynników ryzyka](#7.1-lista-czynników-ryzyka)
+    2. [Ocena ryzyka](#7.2-ocena-ryzyka)
+    3. [Plan reakcji na ryzyko](#7.3-plan-reakcji-na-ryzyko)
+8. [Zarządzanie jakością](#8-zarządzanie-jakością)
+    1. [Scenariusze i przypadki testowe](#8.1-scenariusze-i-przypadki-testowe)
+9. [Projekt techniczny](#9-projekt-techniczny)
+    1. [Opis architektury systemu](#9.1-opis-architektury-systemu)
+    2. [Technologie implementacji systemu](#9.2-technologie-implementacji-systemu)
+    3. [Diagramy UML](#9.3-diagramy-uml)
+    4. [Charakterystyka zastosowanych wzorców projektowych](#9.4-charakterystyka-zastosowanych-wzorców-projektowych)
+    5. [Projekt bazy danych](#9.5-projekt-bazy-danych)
+    6. [Projekt interfejsu użytkownika](#9.6-projekt-interfejsu-użytkownika)
+    7. [Procedura wdrożenia](#9.7-procedura-wdrożenia)
+10. [Dokumentacja dla użytkownika](#10-dokumentacja-dla-użytkownika)
+11. [Podsumowanie](#11-podsumowanie)
+    1.[Szczegółowe nakłady projektowe członków zespołu](#11.1-szczegółowe-nakłady-projektowe-członków-zespołu)
 12. [Inne informacje](#12-inne-informacje)
 
 ---
 
-## 1 Odnośniki do innych źródeł
+## 2 Odnośniki do innych źródeł
 
 - *Zarządzanie projektem*: Jira, Trello, itp.
 - *Wersjonowanie kodu*: Git (hosting np. na Bitbucket lub Github), ew. SVN
@@ -57,23 +57,23 @@
 
 ---
 
-## 2 Słownik pojęć
+## 3 Słownik pojęć
 
 Tabela lub lista z pojęciami, które wymagają wyjaśnienia, wraz z tymi wyjaśnieniami – w szczególności synonimy różnych pojęć używanych w dokumentacji.
 
 ---
 
-## 3 Wprowadzenie
+## 4 Wprowadzenie
 
-### 3.1 Cel dokumentacji
+### 4.1 Cel dokumentacji
 
 Celem dokumentacji jest przedstawienie szczegółowych informacji dotyczących systemu Yfitsop, w tym jego specyfikacji, wymagań funkcjonalnych i niefunkcjonalnych, technologii implementacji oraz zarządzania projektem.
 
-### 3.2 Przeznaczenie dokumentacji
+### 4.2 Przeznaczenie dokumentacji
 
 Dokumentacja jest przeznaczona dla zespołu projektowego, przyszłych deweloperów oraz użytkowników systemu.
 
-### 3.3 Opis organizacji lub analiza rynku
+### 4.3 Opis organizacji i analiza rynku
 
 Klon Spotify w Django ma na celu dostarczenie prostego, samodzielnie hostowanego rozwiązania do odtwarzania muzyki, skierowanego do:
 
@@ -91,7 +91,7 @@ Trendy rynkowe:
 Wzrost zapotrzebowania na lokalne rozwiązania chmurowce (np. self-hosted alternatywy dla Spotify).
 Rosnąca popularność frameworków Pythonowych (Django, FastAPI).
 
-### 3.4 Analiza SWOT organizacji
+### 4.4 Analiza SWOT organizacji
 
 | *Silne strony* | *Słabe strony* |
 |------------------|------------------|
@@ -106,38 +106,38 @@ Rosnąca popularność frameworków Pythonowych (Django, FastAPI).
 
 ---
 
-## 4 Specyfikacja wymagań
+## 5 Specyfikacja wymagań
 
-### 4.1 Charakterystyka ogólna
+### 5.1 Charakterystyka ogólna
 
-#### 4.1.1 Definicja produktu
+#### 5.1.1 Definicja produktu
 
 Yfitsop to aplikacja webowa typu Spotify-clone, umożliwiająca strumieniowe odtwarzanie muzyki. Projekt wykorzystuje technologie Python (Django) i TailwindCSS.
 
-#### 4.1.2 Podstawowe założenia
+#### 5.1.2 Podstawowe założenia
 
 - Przeglądanie dostępnej biblioteki muzycznej
 - Wyszukiwanie utworów według nazwy
 - Tworzenie i zarządzanie playlistami
 - Odtwarzanie utworów w interfejsie webowym
 
-#### 4.1.3 Cel biznesowy
+#### 5.1.3 Cel biznesowy
 
 Celem jest stworzenie platformy do streamingu muzyki jako baza do dalszego rozwoju oraz nauki technologii webowych.
 
-#### 4.1.4 Użytkownicy
+#### 5.1.4 Użytkownicy
 
 - *Zarejestrowani użytkownicy*: Mogą odtwarzać muzykę i zarządzać playlistami.
 - *Administratorzy*: Mają dostęp do zarządzania treścią.
 
-#### 4.1.5 Korzyści z systemu
+#### 5.1.5 Korzyści z systemu
 
 - K-001: Użytkownicy mogą słuchać muzyki online.
 - K-002: Użytkownicy mogą wyszukiwać utwory po nazwie.
 - K-003: Użytkownicy mogą tworzyć i zarządzać playlistami.
 - K-004: Administratorzy mogą dodawać nowe utwory do bazy danych.
 
-#### 4.1.6 Ograniczenia projektowe i wdrożeniowe
+#### 5.1.6 Ograniczenia projektowe i wdrożeniowe
 
 - *Backend*: Python (Django)
 - *Frontend*: CSS, HTML, JavaScript
@@ -146,20 +146,20 @@ Celem jest stworzenie platformy do streamingu muzyki jako baza do dalszego rozwo
 
 Brak możliwości uploadu plików i rekomendacji. Dane użytkowników zgodne z polityką RODO.
 
-### 4.2 Wymagania funkcjonalne
+### 5.2 Wymagania funkcjonalne
 
-#### 4.2.1 Lista wymagań
+#### 5.2.1 Lista wymagań
 
 - *Odtwarzanie muzyki*: Użytkownik może odtwarzać muzykę za pomocą odtwarzacza.
 - *Tworzenie playlisty*: Użytkownik może tworzyć i zarządzać playlistami.
 - *Wyszukiwanie utworów*: Użytkownik może wyszukiwać utwory po nazwie, artyście, albumie.
 - *Zarządzanie kontem*: Rejestracja, logowanie, zmiana danych użytkownika.
 
-#### 4.2.2 Diagramy przypadków użycia
+#### 5.2.2 Diagramy przypadków użycia
 
 ![image](https://github.com/user-attachments/assets/7430ccb3-5fb9-4f6c-a045-7e1c9e604690)
 
-#### 4.2.3 Szczegółowy opis wymagań
+#### 5.2.3 Szczegółowy opis wymagań
 
 *Numer (ID)*: F-001  
 *Nazwa*: Odtwarzanie muzyki  
@@ -179,19 +179,51 @@ Brak możliwości uploadu plików i rekomendacji. Dane użytkowników zgodne z p
 *Użytkownicy*: Rejestrujący się użytkownicy 
 *Scenariusz*: Tworzenie nowego konta 
 
+### 5.3 Wymagania niefunkcjonalne  
+W odniesieniu do całego systemu, modułów lub innych składowych systemu:
+
+#### 1. Wydajność  
+- System powinien uruchamiać się w czasie nie dłuższym niż 3 sekundy na komputerze klasy użytkowej (min. 8 GB RAM, SSD).  
+- Czas rozpoczęcia odtwarzania utworu po kliknięciu nie może przekroczyć 500 ms.  
+- Wyszukiwanie utworów w bazie (do 10 000 rekordów) nie powinno przekraczać 300 ms.  
+
+#### 2. Bezpieczeństwo  
+- Dane użytkownika (w tym hasła) muszą być przechowywane z użyciem bezpiecznego algorytmu hashującego (np. bcrypt).  
+- System nie może pozwolić na wykonanie zapytań typu SQL Injection, XSS, ani CSRF.  
+- Regularne kopie zapasowe bazy danych (min. raz na 24h) w celu zapobiegania trwałej utracie danych.  
+- W razie awarii, system powinien umożliwić odtworzenie danych z kopii w ciągu 2 godzin.  
+
+#### 3. Zabezpieczenia  
+- Logowanie powinno być zabezpieczone przez CAPTCHA po 3 nieudanych próbach.  
+- Sesja użytkownika wygasa po 30 minutach braku aktywności.  
+- Aplikacja nie powinna mieć dostępu do zasobów systemowych użytkownika poza katalogiem aplikacji.  
+- Wszystkie operacje użytkownika powinny być rejestrowane w logach (np. tworzenie playlist, odtwarzanie utworu, logowanie).  
+
+#### 4. Inne cechy jakości  
+- **Dostępność**: 99,5% czasu działania miesięcznie przy wdrożeniu produkcyjnym.  
+- **Testowalność**: pokrycie kodu testami jednostkowymi na poziomie minimum 80%.  
+- **Użyteczność**: nowy użytkownik powinien być w stanie utworzyć playlistę i dodać utwór w czasie krótszym niż 2 minuty.  
+- **Przenośność**: aplikacja powinna działać zarówno na Windows 10+, macOS oraz systemach Linux (np. Ubuntu 22.04).  
+- **Łatwość konserwacji**: kod podzielony na moduły, z dokumentacją techniczną oraz komentarzami w kluczowych miejscach.  
+- **Adaptowalność**: system umożliwia integrację z zewnętrznymi serwisami API do pobierania metadanych o utworach.  
+- **Awaryjność**: maksymalna liczba nieplanowanych przerw w działaniu systemu – nie więcej niż 1 dziennie.  
+- **Poprawność**: każda akcja użytkownika powinna skutkować jednoznaczną odpowiedzią systemu (np. komunikatem lub reakcją UI).  
+- **Elastyczność**: możliwa edycja szaty graficznej przez zmianę plików stylów (CSS/Theme) bez ingerencji w logikę działania.
+
+
 ---
 
-## 5 Zarządzanie projektem
+## 6 Zarządzanie projektem
 
-### 5.1 Zasoby ludzkie
+### 6.1 Zasoby ludzkie
 
 Założenie, że projekt byłby realizowany w całości jako projekt komercyjny.
 
-### 5.2 Harmonogram prac
+### 6.2 Harmonogram prac
 
 Wskazać czasy trwania poszczególnych etapów i zadań – wykres Gantta.
 
-### 5.3 Etapy/kamienie milowe projektu
+### 6.3 Etapy/kamienie milowe projektu
 
 1. Faza wstępna: Określenie wymagań, wybór technologii
 2. Faza projektowania: Stworzenie schematów UML, projektowanie interfejsu
@@ -201,29 +233,29 @@ Wskazać czasy trwania poszczególnych etapów i zadań – wykres Gantta.
 
 ---
 
-## 6 Zarządzanie ryzykiem
+## 7 Zarządzanie ryzykiem
 
-### 6.1 Lista czynników ryzyka
+### 7.1 Lista czynników ryzyka
 
 1. Niska jakość kodu, brak testów.
 2. Ograniczona wiedza z zakresu wybranej technologii.
 3. Możliwość opóźnienia w harmonogramie.
 
-### 6.2 Ocena ryzyka
+### 7.2 Ocena ryzyka
 
 | *Czynnik* | *Prawdopodobieństwo* | *Skala wpływu* | *Ocena ryzyka* |
 |-------------|-----------------------|------------------|------------------|
 | Brak czasu | 7 | 10 | 11 |
 
-### 6.3 Plan reakcji na ryzyko
+### 7.3 Plan reakcji na ryzyko
 
 Plan reakcji w przypadku wystąpienia opóźnień w harmonogramie – dodatkowe godziny pracy, pomoc z zewnątrz.
 
 ---
 
-## 7 Zarządzanie jakością
+## 8 Zarządzanie jakością
 
-### 7.1 Scenariusze i przypadki testowe
+### 8.1 Scenariusze i przypadki testowe
 
 ## Scenariusz testowy #1: Odtwrzanie utworu
 
@@ -316,9 +348,9 @@ Plan reakcji w przypadku wystąpienia opóźnień w harmonogramie – dodatkowe 
 
 ---
 
-## 8 Projekt techniczny
+## 9 Projekt techniczny
 
-### 8.1 Opis architektury systemu
+### 9.1 Opis architektury systemu
 
 System Yfitsop oparty jest na architekturze trójwarstwowej:
 
@@ -330,7 +362,7 @@ Warstwa danych – relacyjna baza danych PostgreSQL, przechowująca dane o użyt
 
 System komunikuje się przez REST API z użyciem JSON.
 
-### 8.2 Technologie implementacji systemu
+### 9.2 Technologie implementacji systemu
 | Technologia   | Zastosowanie                          | Uzasadnienie                                                  |
 |---------------|----------------------------------------|---------------------------------------------------------------|
 | Python        | Backend (Django)                       | Popularny, elastyczny, szybki w prototypowaniu               |
@@ -341,14 +373,14 @@ System komunikuje się przez REST API z użyciem JSON.
 | JavaScript    | Interaktywność frontendu               | Obsługa dynamicznych akcji na stronie                        |
 | GitHub        | Kontrola wersji i współpraca zespołowa | Ułatwia śledzenie zmian i współpracę                         |
 
-### 8.3 Diagramy
+### 9.3 Diagramy
 
-#### 8.3.1 Diagram(-y) klas
+#### 9.3.1 Diagram(-y) klas
 
 ![image](https://github.com/user-attachments/assets/56c98618-0304-4a2e-af00-352471787f64)
 
 
-#### 8.3.2 Diagram(-y) czynności
+#### 9.3.2 Diagram(-y) czynności
 ##### Tworzenie playlisty
 ![image](https://github.com/user-attachments/assets/13b6721f-fcff-486f-ab66-e492fd1fd222)
 <br>
@@ -356,7 +388,7 @@ System komunikuje się przez REST API z użyciem JSON.
 ![image](https://github.com/user-attachments/assets/bbc3c397-0cc6-4230-9fbb-b86a43b07394)
 
 
-#### 8.3.3 Diagramy sekwencji
+#### 9.3.3 Diagramy sekwencji
 
 ##### Użytkownik tworzy playliste
 ![image](https://github.com/user-attachments/assets/68622b03-cfcc-428a-91bc-346f595f13d5)
@@ -371,7 +403,7 @@ System komunikuje się przez REST API z użyciem JSON.
 
 
 
-### 8.4 Charakterystyka zastosowanych wzorców projektowych
+### 9.4 Charakterystyka zastosowanych wzorców projektowych
 W systemie Yfitsop zastosowano dwa klasyczne wzorce projektowe:
 
 MVC (Model-View-Controller) – realizowany przez framework Django:
@@ -386,7 +418,7 @@ Singleton – dla klasy zarządzającej konfiguracją systemu (np. dostęp do AP
 
 Wzorce te umożliwiają lepszą separację odpowiedzialności oraz łatwiejsze testowanie komponentów.
 
-### 8.5 Projekt Bazy danych
+### 9.5 Projekt Bazy danych
 
 Główne tabele:
 
@@ -433,7 +465,7 @@ Główne tabele:
 
 ---
 
-## 10 Podsumowanie
+## 11 Podsumowanie
 
 ## Kluczowe osiągnięcia projektu
 - Stworzenie funkcjonalnego prototypu aplikacji streamingowej z wykorzystaniem:
@@ -475,7 +507,7 @@ Dokumentacja zawiera wszystkie niezbędne elementy pozwalające na kontynuację 
 
 ---
 
-## 11 Szczegółowe nakłady projektowe członków zespołu
+### 11.1 Szczegółowe nakłady projektowe członków zespołu
 
 | *Członek* | *Zakres prac* | *Czas pracy* |
 |-------------|-----------------|----------------|
