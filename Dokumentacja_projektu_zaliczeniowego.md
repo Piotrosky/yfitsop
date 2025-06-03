@@ -246,7 +246,74 @@ Plan reakcji w przypadku wystąpienia opóźnień w harmonogramie – dodatkowe 
 | **Kategoria** | Test funkcjonalny (Formularze + DB) |
 | **Opis** | Weryfikacja zapisu playlisty do bazy |
 | **Tester** | Kamil Adrian Tumulec |
-  
+
+##Scenariusz testowy #3: Usuwanie utworu z playlisty
+
+### Informacje podstawowe
+| Pole          | Wartość                                                                                    |
+| ------------- | ------------------------------------------------------------------------------------------ |
+| **ID**        | TC-003                                                                                     |
+| **Nazwa**     | Usuwanie utworu z playlisty                                                                |
+| **Kategoria** | Test funkcjonalny (UI + Backend + DB)                                                      |
+| **Opis**      | Weryfikacja poprawnego usunięcia utworu z istniejącej playlisty i aktualizacji bazy danych |
+| **Tester**    | Anna Nowak                                                                                 |
+
+
+
+##Scenariusz testowy #4: Wyszukiwanie utworów
+
+### Informacje podstawowe
+| Pole          | Wartość                                                                       |
+| ------------- | ----------------------------------------------------------------------------- |
+| **ID**        | TC-004                                                                        |
+| **Nazwa**     | Wyszukiwanie utworów według tytułu i artysty                                  |
+| **Kategoria** | Test funkcjonalny (UI + Backend)                                              |
+| **Opis**      | Weryfikacja poprawności działania mechanizmu wyszukiwania utworów w aplikacji |
+| **Tester**    | Piotr Kaczmarek                                                               |
+
+
+
+##Scenariusz testowy #5: Edycja szczegółów playlisty
+
+### Informacje podstawowe
+| Pole          | Wartość                                                                                             |
+| ------------- | --------------------------------------------------------------------------------------------------- |
+| **ID**        | TC-005                                                                                              |
+| **Nazwa**     | Edycja nazwy i opisu playlisty                                                                      |
+| **Kategoria** | Test funkcjonalny (Formularze + DB)                                                                 |
+| **Opis**      | Sprawdzenie poprawności edycji nazwy i opisu istniejącej playlisty oraz aktualizacji w bazie danych |
+| **Tester**    | Magdalena Lis                                                                                       |
+
+
+
+
+
+##Scenariusz testowy #6: Odtwarzanie losowe (shuffle)
+
+### Informacje podstawowe
+| Pole          | Wartość                                                                 |
+| ------------- | ----------------------------------------------------------------------- |
+| **ID**        | TC-006                                                                  |
+| **Nazwa**     | Odtwarzanie losowe utworów z playlisty                                  |
+| **Kategoria** | Test funkcjonalny (UI + Backend)                                        |
+| **Opis**      | Weryfikacja działania trybu odtwarzania losowego na wybranej playliście |
+| **Tester**    | Tomasz Zieliński                                                        |
+
+
+
+
+##Scenariusz testowy #7: Logowanie użytkownika
+
+### Informacje podstawowe
+| Pole          | Wartość                                                                           |
+| ------------- | --------------------------------------------------------------------------------- |
+| **ID**        | TC-007                                                                            |
+| **Nazwa**     | Logowanie do aplikacji                                                            |
+| **Kategoria** | Test funkcjonalny (UI + Backend + Security)                                       |
+| **Opis**      | Sprawdzenie poprawności procesu logowania z prawidłowymi i nieprawidłowymi danymi |
+| **Tester**    | Katarzyna Woźniak                                                                 |
+
+
 ---
 
 ## 8 Projekt techniczny
