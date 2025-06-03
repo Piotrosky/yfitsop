@@ -274,7 +274,7 @@ System komunikuje się przez REST API z użyciem JSON.
 | JavaScript    | Interaktywność frontendu               | Obsługa dynamicznych akcji na stronie                        |
 | GitHub        | Kontrola wersji i współpraca zespołowa | Ułatwia śledzenie zmian i współpracę                         |
 
-### 8.3 Diagramy UML
+### 8.3 Diagramy
 
 #### 8.3.1 Diagram(-y) klas
 
@@ -292,6 +292,16 @@ System komunikuje się przez REST API z użyciem JSON.
 #### 8.3.3 Diagramy sekwencji
 
 ![image](https://github.com/user-attachments/assets/68622b03-cfcc-428a-91bc-346f595f13d5)
+
+![image](https://github.com/user-attachments/assets/239ef84c-6800-42b6-9175-b217377ac83e)
+
+![image](https://github.com/user-attachments/assets/e04a761d-2790-4f94-859a-4c67a06205a1)
+
+![image](https://github.com/user-attachments/assets/5754beb1-b85f-47d5-ab42-5c758ee2e61f)
+
+![image](https://github.com/user-attachments/assets/f9197575-1e65-4636-9b31-75faec693747)
+
+
 
 ### 8.4 Charakterystyka zastosowanych wzorców projektowych
 W systemie Yfitsop zastosowano dwa klasyczne wzorce projektowe:
