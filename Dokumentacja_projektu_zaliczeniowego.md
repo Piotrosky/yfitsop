@@ -482,10 +482,15 @@ Główne tabele:
 
 ---
 ### 9.6 Projekt interfejsu użytkownika
+##### Biblioteka playlist
 ![Untitled](https://github.com/user-attachments/assets/1275002c-29e5-4a22-be00-31f5f636d460)
+##### Wygląd utworzonej playlisty
 ![Untitled](https://github.com/user-attachments/assets/b0f4a23b-6255-4a6a-85a8-37bd1001254d)
+##### Playlista z odtwarzanym utworem
 ![Untitled](https://github.com/user-attachments/assets/e1a5d06e-d02c-4fc4-958c-1e56421156a0)
+##### Polubione utwory
 ![Untitled](https://github.com/user-attachments/assets/9d2d6bfa-b0e3-4dba-bc36-c9a336d36cc1)
+##### Ekran logowania (ekran rejestrowania wygląda tak samo)
 ![Untitled](https://github.com/user-attachments/assets/1d4194c8-3e81-4fd9-8b81-d36d651b8dac)
 
 
