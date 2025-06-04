@@ -481,6 +481,14 @@ Główne tabele:
 | track_id     | INTEGER    | NOT NULL | FOREIGN KEY | Odniesienie do `tracks(id)`     |
 
 ---
+### 9.6 Projekt interfejsu użytkownika
+![Untitled](https://github.com/user-attachments/assets/1275002c-29e5-4a22-be00-31f5f636d460)
+![Untitled](https://github.com/user-attachments/assets/b0f4a23b-6255-4a6a-85a8-37bd1001254d)
+![Untitled](https://github.com/user-attachments/assets/e1a5d06e-d02c-4fc4-958c-1e56421156a0)
+![Untitled](https://github.com/user-attachments/assets/9d2d6bfa-b0e3-4dba-bc36-c9a336d36cc1)
+![Untitled](https://github.com/user-attachments/assets/1d4194c8-3e81-4fd9-8b81-d36d651b8dac)
+
+
 
 ## 11 Podsumowanie
 
